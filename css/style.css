@@ -40,7 +40,7 @@ header a:hover {
     border: 6px solid rgb(26, 115, 232);
     border-radius: 5px;
     float: right;
-    letter-spacing: 0.26px;
+    letter-spacing: 0.25px;
     margin: 4px;
 }
 
@@ -133,7 +133,7 @@ footer {
     display: block;
 }
 } 
-@media screen and (max-width:401px) {
+@media screen and (max-width:402px) {
     input[type="search"] {
     width: 80%;
     }
