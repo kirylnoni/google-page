@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    background: rgb(42, 42, 42);
+    color:white;
+    letter-spacing: 0.25px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+header a{
+    margin: 5px;
+    padding: 2px;
+}
+.header {
+   text-align: right;
+   font-size: 14px;
+   margin: 12px;
+}
+header a:hover {
+    text-decoration: underline;
+    
+}
+.post, .pics {
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.sing-in {
+    background: rgb(26, 115, 232);
+    border: 6px solid rgb(26, 115, 232);
+    border-radius: 5px;
+    float: right;
+    letter-spacing: 0.25px;
+    margin: 4px;
+}
+
+.sing-in:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo {
+    text-align: center;
+    margin-top: 15%;
+    max-height: 100%;
+    max-width: 100%;
+}
+input[type="search"] {
+    height: 35px;
+    width: 400px;
+    background:rgb(42, 42, 42);
+    border: 1.5px solid white;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 14px;
+}
+.bottoms { 
+    text-decoration: none;
+   text-align: center;
+}
+.bottoms a:hover {
+    text-decoration: underline;
+    
+}
+.bottom-1, .bottom-2 {
+    margin: 8px;
+    border: 6px solid rgb(106, 106, 106);
+    border-radius: 5px;
+    background: rgb(106, 106, 106);
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.services {
+    margin: 15px;
+    text-align: center;
+    
+}
+.bel, .ru {
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.bel a, .ru a {
+    color: rgb(92, 92, 255);
+}
+
+.search {
+ margin: 2%;
+ text-align: center;
+}
+.footer {
+    background: rgb(27, 27, 27);
+    
+}
+.belarus {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(106, 106, 106);
+    height: 20px;
+}
+.information-1 {
+    padding: 15px 15px;
+    display: inline-block;
+    position: relative;
+}
+.information-2 {
+    display: inline-block;
+    position: absolute  ;
+    right: 0;
+    padding: 15px 15px;
+}
+.information-1 a, .information-2 a {
+padding: 8px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width:1000px) {
+    .information-1 a, .information-2 a {
+    display: block;
+}
+} 
+@media screen and (max-width:400px) {
+    input[type="search"] {
+    width: 80%;
+    }
+}
